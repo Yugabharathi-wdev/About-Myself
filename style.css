@@ -1,0 +1,106 @@
+.gradient-background,body {
+	background: linear-gradient(-45deg, #BCCCDC, #D9EAFD,#F6D6D6);
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.name,.pro{
+    font-family: "Playwrite IN", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  color:#f6F7C4;
+}
+*{
+    margin: 0 ;
+}
+.intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.name{
+    margin-top: 250px;
+    text-decoration:underline;
+    text-decoration-color: #F6D6D6 ;
+    
+}
+.lap{
+    height: 70px;
+    width: 50px;
+    margin-left: 10px;
+}
+img{
+    position: absolute;
+    
+}
+.cloud1{
+    top:20px;
+    left: 390px
+}
+.cloud2{
+    top:400px;
+    left:850px;
+}
+.cloud3{
+    top:30px;
+    left:1050px;
+}
+.h1s{
+    font-family: "Old Standard TT", serif;
+  font-weight: 500;
+  font-style:italic  ;
+  color: #A888B5;
+  text-decoration: underline;
+  text-decoration-color: #EFB6C8 !important;
+}
+.abtpara{
+    font-family: "Roboto", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    font-size: 20px;
+    color: #6A80B9;
+}
+.three{
+    position: absolute;
+    left: 290px;
+    top: 1030px;
+}
+.four{
+    font-family: "Roboto", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    font-size: 20px;
+    color: #6A80B9;
+}
+.six{
+    position: absolute;
+    left:335px;
+}
+.touch{
+    margin-top: 300px;
+}
+.nav-link:hover{
+    color: #EFB6C8;
+}
+.nav-link{
+    color: #A888B5;
+}
